@@ -1,41 +1,42 @@
-# style 속성으로 꾸민
-# width : 이미지 사이즈 폭 조절
+style 속성으로 꾸민
+width : 이미지 사이즈 폭 조절
 <img src="lion.png" style="width: 100px">
 
-# % 단위 : 내 부모 size에 비
+% 단위 : 내 부모 size에 비
 <img src="lion.png" style="width: 100px">
 
-# 마진(여백)
-# margin-right, margin-top, margin-bottom
+마진(여백)
+margin-right, margin-top, margin-bottom
 <img src="lion.png" style="width: 100px; margin-left: 30px">
 
-# 이미지 가운데 정렬
+이미지 가운데 정렬
 <img src="lion.png" style="width: 100px; display: block; margin-left: auto; margin-right: auto">
 
-# 글자 size
+글자 size
 <h3 style="font-size: 16px">KARINA</h3>
 
-# 글자 font
+글자 font
 <h3 style="font-size: 16px">KARINA</h3>
 
-# 글꼴
+글꼴
 <h3 style="font-family: 'gulim'">KARINA</h3>
 
-# 글자 색상
+글자 색상
 <h3 style="color: blue">KARINA</h3>
 
-# 자간 조절 (글자 사이 size)
+자간 조절 (글자 사이 size)
 <h3 style="letter-spacing: -1px">KARINA</h3>
 
-# 글자 가운데 정렬
+글자 가운데 정렬
 <h3 style="text-align: reft">KARINA</h3>
 
-# 글자 굵게
+글자 굵게
 <h3 style="font-weight: 100">KARINA</h3>
 <strong style="color: red">KARINA</strong>
 
-# 일부 글자만 스타일링하는 법 (한 줄이 아닌 단어)
-# span : 글자를 감쌀 수 있는 별 뜻이 없는 태그
+일부 글자만 스타일링하는 법 (한 줄이 아닌 단어)
+span : 글자를 감쌀 수 있는 별 뜻이 없는 태그
+
 <p>
     <span style="color: blue; font-weight: ">
     KARINA
