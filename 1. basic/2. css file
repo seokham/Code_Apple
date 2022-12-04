@@ -1,16 +1,16 @@
-# <link> 로 css 파일 연결
+<link> 로 css 파일 연결
 <link href="/study.css" rel="stylesheet" />
 
-# html 에서 class=작명 으로 적용
+html 에서 class=작명 으로 적용
 <img src="lion.png" class="profile" />
 <h3 class="title">Lion</h3>
 <p style="text-align: center">
 
-# css 파일 안에서 사용법
+css 파일 안에서 사용법
 class selector -> .class
 tag selector -> .tag
 id selector -> #javascript
 
-# style 이 겹칠 경우 우선순위에 따라서 정해짐
-# html style > id > cass > tag
+style 이 겹칠 경우 우선순위에 따라서 정해짐
+html style > id > cass > tag
 <p style="color: black" id="special" class="content"> xxxxxxxx<p>
