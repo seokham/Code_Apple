@@ -1,4 +1,10 @@
-style 속성으로 꾸민
+<p>
+본문, 문단 단위의 태그
+
+<h1> ~ <h6>
+제목 태그
+
+style 속성으로 꾸민다
 width : 이미지 사이즈 폭 조절
 <img src="lion.png" style="width: 100px">
 
