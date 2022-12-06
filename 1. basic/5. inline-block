@@ -60,8 +60,9 @@ font-size 속성은 inherit 되기 때문에 안에 있는 <div>와
 inline- block 을 쓰면 box 안에 글씨를 쓰면 근처 box 들 사이에 공백이 생기며
 box 들의 위치가 뒤틀린다.
 
-이유는 baseline 이 옆에 존재하면
-display: inline-block 요소들이 baseline 위에 오려고 한다
+이유는 baseline 이 존재하면
+display: inline-block 이 사용된 박스들이 baseline 위 부터 box 들을 채우려고 한다.
+box 들을 글자로 인식해서 그런것이다.
 vertical-align 을 사용해야 글씨를 입력해도 박스의 공백이 생기지 않는다.
 vertical-align 은 상하정렬이다
 
